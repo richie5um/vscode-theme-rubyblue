@@ -1,10 +1,12 @@
 {
-	"name": "RubyBlue Theme",
+	"name": "rubyblue-theme",
+    "displayName": "RubyBlue Theme",
 	"description": "Dark, high contrast theme.",
-	"version": "0.1.0",
+	"version": "1.0.2",
 	"publisher": "hirofumii",
+    "icon": "icon.png",
     "galleryBanner": {
-        "color": "#5c2d91",
+        "color": "#112435",
         "theme": "dark"
     },
 	"engines": {
