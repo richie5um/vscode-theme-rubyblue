@@ -25,5 +25,6 @@ In VSCode press F1, search `ext install` followed by extension name, in this cas
 
 - Initial release
 
-**Happy hacking!**
+
 ![flogs](https://raw.githubusercontent.com/hirofumii/vscode-theme-rubyblue/images/flogs.png)
+**Happy hacking!**
