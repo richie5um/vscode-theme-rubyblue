@@ -1,0 +1,25 @@
+{
+	"name": "RubyBlue Theme",
+	"description": "Dark, high contrast theme.",
+	"version": "0.1.0",
+	"publisher": "hirofumii",
+    "galleryBanner": {
+        "color": "#5c2d91",
+        "theme": "dark"
+    },
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Ruby Blue",
+				"uiTheme": "vs-dark",
+				"path": "./themes/RubyBlue.tmTheme"
+			}
+		]
+	}
+}
