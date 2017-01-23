@@ -1,10 +1,16 @@
 {
-	"name": "rubyblue-theme",
-    "displayName": "RubyBlue Theme",
+	"name": "rubyblue-theme-richs",
+    "displayName": "RubyBlue Theme (RichS)",
 	"description": "Dark, high contrast theme.",
 	"version": "1.0.2",
 	"publisher": "hirofumii",
     "icon": "icon.png",
+	"scripts": {
+		"install:create": "mkdir -p $HOME/.vscode/extensions/RubyBlueThemeRichS/themes",
+		"install:copy:theme": "cp themes/* $HOME/.vscode/extensions/RubyBlueThemeRichS/themes",
+		"install:copy:package": "cp package.json $HOME/.vscode/extensions/RubyBlueThemeRichS",
+		"install": "npm run install:create && npm run install:copy:theme && npm run install:copy:package"
+	},
     "galleryBanner": {
         "color": "#112435",
         "theme": "dark"
@@ -20,7 +26,7 @@
 			{
 				"label": "Ruby Blue",
 				"uiTheme": "vs-dark",
-				"path": "./themes/RubyBlue.tmTheme"
+				"path": "./themes/RubyBlueRichS.tmTheme"
 			}
 		]
 	}
